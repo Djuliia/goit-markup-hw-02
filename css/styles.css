@@ -39,7 +39,7 @@ body {
   overflow: hidden;
   border: 0;
   padding: 0;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   clip-path: inset(50%);
   margin: -1px;
 }
@@ -137,9 +137,8 @@ body {
 
 /* Services */
 .services-item {
-  /* width: 360px;
-  height: 300px; */
-  background-color: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
+  max-width: 360px;
+  background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
   border: 1px solid var(--color-accent);
 }
 
@@ -149,9 +148,8 @@ body {
 }
 
 .team-item {
-  /* width: 264px;
-  height: 380px; */
-  background: #FFFFFF;
+  max-width: 264px;
+  background: var(--color-white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
@@ -194,7 +192,6 @@ body {
 }
 
 .portfolio-item {
-  /* width: 360px;
-  height: 420px; */
+  max-width: 360px;
   border: 1px solid var(--color-accent);
 }
