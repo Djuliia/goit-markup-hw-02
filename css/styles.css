@@ -113,9 +113,8 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  width: 496px;
-  height: 120px;
-}
+  max-width: 496px;
+ }
 
 .hero-btn {
   width: 169px;
@@ -138,8 +137,8 @@ body {
 
 /* Services */
 .services-item {
-  width: 360px;
-  height: 300px;
+  /* width: 360px;
+  height: 300px; */
   background-color: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
   border: 1px solid var(--color-accent);
 }
@@ -150,8 +149,8 @@ body {
 }
 
 .team-item {
-  width: 264px;
-  height: 380px;
+  /* width: 264px;
+  height: 380px; */
   background: #FFFFFF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -168,9 +167,8 @@ body {
 
 .footer-text {
   color: var(--color-accent);
-  width: 264px;
-  height: 72px;
-}
+  max-width: 264px;
+  }
 
 
 /* Portfolio */
@@ -196,7 +194,7 @@ body {
 }
 
 .portfolio-item {
-  width: 360px;
-  height: 420px;
+  /* width: 360px;
+  height: 420px; */
   border: 1px solid var(--color-accent);
 }
